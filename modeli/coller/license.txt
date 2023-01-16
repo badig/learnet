@@ -1,0 +1,11 @@
+Model Information:
+* title:	AMD Coller Wraith Spire
+* source:	https://sketchfab.com/3d-models/amd-coller-wraith-spire-2d471924d43a493f9aeb2c05f23a53fc
+* author:	denisbalaz (https://sketchfab.com/denisbalaz)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "AMD Coller Wraith Spire" (https://sketchfab.com/3d-models/amd-coller-wraith-spire-2d471924d43a493f9aeb2c05f23a53fc) by denisbalaz (https://sketchfab.com/denisbalaz) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

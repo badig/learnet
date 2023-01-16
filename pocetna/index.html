@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../slike/logo2.png" type="image/icon type">
+    <title>Learnet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../general/navbar.css">
+    <script src="../general/navbar.js"></script>
+    <link rel="stylesheet" href="../general/loader.css">
+    
+    <link rel="stylesheet" href="../modeli css/modeli.css">
+    
+    <script async src="http://ga.jspm.io/npm:es-module-shims@1.6.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+        "imports":{
+            "three": "https://unpkg.com/three@0.145.0/build/three.module.js"
+        }}
+    </script>
+    <script type="module" src="../modeli js/model.js"></script>
+    <script type="module" src="../modeli js/kuciste.js"></script>
+    <script type="module" src="../modeli js/maticna.js"></script>
+    <script type="module" src="../modeli js/procesor.js"></script>
+    <script type="module" src="../modeli js/graficka.js"></script>
+    <script type="module" src="../modeli js/ram.js"></script>
+    <script type="module" src="../modeli js/hladjenje.js"></script>
+    <script type="module" src="../modeli js/napajanje.js"></script>
+    <script type="module" src="../modeli js/storage.js"></script>
+    
+
+    <script src="../general/loader.js"></script>
+</head>
+<body>
+
+    <div id="loader1"></div>
+    <!--navbar-->
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-links">
+                <img src="../slike//logo2.png" alt="">
+                <a href="">learnet</a>
+              </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="">Početna</a>
+          <a href="">Igra</a>
+          <a href="">O nama</a>
+        </div>
+      </div>
+
+
+    <main>
+        <div class="slide" id="slide">
+           <div class="text">
+            <img src="../slike/logo2.png" alt="">
+            <h1>learnet</h1>
+            <h2>Računarske komponente - vaš put do tehnološke pismenosti!</h2>
+           </div>
+        </div>
+        <div class="model">
+            <div id="model"></div>
+        </div>
+        
+    </main>
+
+    <!-- more scroll -->
+    <div class="more">
+        <a href="#zanimljivosti">
+            <p>More <i class="arrow_down"></i></p>
+        </a>
+    </div>
+
+    <div class="komponente">
+        <div class="komp">
+            <div class="model2" id="modelk"></div>
+            <div class="opis"></div>
+        </div>
+        
+        <div class="komp2">
+            <div class="model2" id="modelmp"></div>
+            <div class="opis"></div>
+        </div>
+       
+        <div class="komp">
+            <div class="model2" id="modelp"></div>
+            <div class="opis"></div>
+        </div>
+
+        <div class="komp2">
+            <div class="model2" id="modelg"></div>
+            <div class="opis"></div>
+        </div>
+        
+        <div class="komp">
+            <div class="model2" id="modelr"></div>
+            <div class="opis"></div>
+        </div>
+
+        <div class="komp2">
+            <div class="model2" id="modelh"></div>
+            <div class="opis"></div>
+        </div>
+        
+        <div class="komp">
+            <div class="model2" id="modeln"></div>
+            <div class="opis"></div>
+        </div>
+
+        <div class="komp2">
+            <div class="model2" id="models"></div>
+            <div class="opis"></div>
+        </div>
+    </div>
+
+</body>
+</html>
